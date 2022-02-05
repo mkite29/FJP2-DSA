@@ -33,7 +33,7 @@ vector<int> nsel(vector<int>arr)
 
 vector<int> nser(vector<int>arr)
 {
-  vector<int> nge(arr.size(),-1);
+  vector<int> nge(arr.size(),arr.size());
   stack<int> st;
   
   for(int i = arr.size()-1;i>=0;i--){
